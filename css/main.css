@@ -25,6 +25,7 @@ img {
 
 header {
   background-image: url("../images/anchors.svg");
+  background-color: #1e7c74;
   color: #fff;
   font-size: 1.125rem;
   font-style: normal;
@@ -86,7 +87,7 @@ nav a {
   border: 0;
   border-radius: 6px;
   color: #fff;
-  padding: 0.5rem;
+  padding: .5rem;
   width: 2.5rem;
   height: 2.5rem;
 }
@@ -94,6 +95,8 @@ nav a {
 nav a:hover,
 nav a:focus {
   background-color: #1e7c74;
+  outline: .2rem solid #000;
+  outline-offset: .1rem;
 }
 
 .icon {
@@ -117,6 +120,7 @@ nav i {
 article p {
   margin: 0;
   text-indent: 1.3em;
+  font-size: 1.125rem;
 }
 
 article div :first-child {
@@ -145,7 +149,7 @@ figcaption {
 }
 
 article footer {
-  background-color: #259f95;
+  background-color: #1e7c74;
   background-image: none;
   border-radius: 6px 6px 0 0;
   color: #fff;
@@ -156,5 +160,6 @@ footer {
   justify-content: center;
   padding: 1rem;
   background-image: url("../images/anchors.svg");
+  background-color: #1e7c74;
   color: #fff;
 }
